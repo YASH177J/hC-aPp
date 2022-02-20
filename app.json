@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Health-Check",
+    "slug": "Health-Check",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/HEALTHCHECKLOGO.png",
+    "splash": {
+      "image": "./assets/HEALTHCHECKLOGO.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/HEALTHCHECKLOGO.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.yash_rai2617.HealthCheck"
+    },
+    "web": {
+      "favicon": "./assets/HEALTHCHECKLOGO.png"
+    }
+  }
+}
